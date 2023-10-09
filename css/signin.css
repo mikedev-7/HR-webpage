@@ -1,0 +1,156 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100%;
+ }
+ *{
+    background-color: aliceblue ;
+ }
+ #nav-logo {
+    width: 180px;
+    height: auto;
+    min-width: 180px;
+ }
+ #nav-logo a img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 100%;
+    margin-top: 6%;
+    
+}
+#logos{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 7%;
+    align-items: center;
+}
+#logos a img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 1.2rem;
+    border-radius: 10px;
+    
+    background-color: #fff;
+    box-shadow: 0 6px 24px 0 rgba(174, 174, 186, 0.3);
+}
+
+  #email{
+    margin: 1.5rem;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 1.125rem;
+    color: #071124;
+    margin-left: 12%;
+  }
+  form{
+    background-color: white;
+    width: auto;
+    height: 60vh;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    align-items: center;
+}
+ input[type=email] {
+    border: none;
+    border-bottom: 1px gray;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 80%;
+    background-color: white;
+    color: gray;
+
+  }
+  input[type=email] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 40%;
+  }
+  input[type=password] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 40%;
+    color: gray;
+
+  }
+  #buttons{
+    width: 100px;
+    border-radius: 50px;
+    background-color: #d0256a;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    align-self: flex-start;
+   transition: all 200ms ease;
+   margin-top: 20px;
+
+  }
+  #forgot{
+    margin-top: 15px;
+  }
+  
+  #forgot a{
+    text-decoration: underline;
+    color: #6d737e;
+  }
+  #sign-up h2{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+#button{
+  border: solid 1px #071124 ;
+  background-color: transparent;
+  color: #071124;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem 1.25rem;
+  align-self: flex-start;
+  width:180px;
+  border-radius: 50px;
+}
+#user-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+ 
+
+
+}
+
+#image{
+  position: relative;
+}
+#image img{
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
+  width: 225px;
+}
+#sign-up{
+  width: 20%;
+}
+#forms{
+  
+  width: 40%;
+}

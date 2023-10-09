@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons8-google_logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Breezy-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In---Updated" transform="translate(-190.000000, -789.000000)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(0.000000, -1.000000)">
+                <g id="Group" transform="translate(76.000000, 198.000000)">
+                    <g id="Icon-/-Social-/-Facebook-Copy-3" transform="translate(0.000000, 112.000000)">
+                        <g id="icons8-google_logo" transform="translate(114.000000, 480.000000)">
+                            <path d="M39.611,16.083 L38,16.083 L38,16 L20,16 L20,24 L31.303,24 C29.654,28.657 25.223,32 20,32 C13.373,32 8,26.627 8,20 C8,13.373 13.373,8 20,8 C23.059,8 25.842,9.154 27.961,11.039 L33.618,5.382 C30.046,2.053 25.268,0 20,0 C8.955,0 0,8.955 0,20 C0,31.045 8.955,40 20,40 C31.045,40 40,31.045 40,20 C40,18.659 39.862,17.35 39.611,16.083 Z" id="Path" fill="#FFC107"></path>
+                            <path d="M2.306,10.691 L8.877,15.51 C10.655,11.108 14.961,8 20,8 C23.059,8 25.842,9.154 27.961,11.039 L33.618,5.382 C30.046,2.053 25.268,0 20,0 C12.318,0 5.656,4.337 2.306,10.691 Z" id="Path" fill="#FF3D00"></path>
+                            <path d="M20,40 C25.166,40 29.86,38.023 33.409,34.808 L27.219,29.57 C25.211,31.091 22.715,32 20,32 C14.798,32 10.381,28.683 8.717,24.054 L2.195,29.079 C5.505,35.556 12.227,40 20,40 Z" id="Path" fill="#4CAF50"></path>
+                            <path d="M39.611,16.083 L38,16.083 L38,16 L20,16 L20,24 L31.303,24 C30.511,26.237 29.072,28.166 27.216,29.571 C27.217,29.57 27.218,29.57 27.219,29.569 L33.409,34.807 C32.971,35.205 40,30 40,20 C40,18.659 39.862,17.35 39.611,16.083 Z" id="Path" fill="#1976D2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

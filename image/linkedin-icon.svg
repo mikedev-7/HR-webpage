@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icons8-linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Breezy-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In---Updated" transform="translate(-568.000000, -755.000000)" fill="#0288D1" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(0.000000, -1.000000)">
+                <g id="Group" transform="translate(76.000000, 198.000000)">
+                    <g id="Icon-/-Social-/-Facebook-Copy-3" transform="translate(0.000000, 112.000000)">
+                        <g id="icons8-linkedin" transform="translate(492.000000, 446.000000)">
+                            <g id="Group">
+                                <rect id="Rectangle" x="0" y="7" width="5" height="17"></rect>
+                                <path d="M2.485,5 L2.457,5 C0.965,5 0,3.888 0,2.499 C0,1.08 0.995,0 2.514,0 C4.035,0 4.972,1.08 5,2.499 C5,3.887 4.035,5 2.485,5 Z" id="Path"></path>
+                                <path d="M24,24 L19,24 L19,14.901 C19,12.703 17.775,11.203 15.808,11.203 C14.307,11.203 13.495,12.215 13.101,13.193 C12.957,13.543 13,14.511 13,15 L13,24 L8,24 L8,7 L13,7 L13,9.616 C13.721,8.5 14.85,7 17.738,7 C21.316,7 23.999,9.25 23.999,14.274 L24,24 L24,24 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

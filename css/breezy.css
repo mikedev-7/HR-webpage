@@ -444,3 +444,145 @@ body{
     margin-top: 20vh;
     margin-bottom: 20vh;
 }
+
+@media (max-width:992px){
+    body{
+        width: 100%;
+    }
+    #recruiting{
+        display: flex;
+        flex-direction: column
+    }
+    #recruiting-2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px
+    }
+    #recruiting-3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px
+    }
+    #icons-block{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #last-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #talk{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    #starting-btn {
+      width: 50%;
+      margin-right: 50%;
+      margin-left: 30%;
+    }
+    #body-texts{
+        margin-bottom: 20px;
+    }
+    #bodyimg a img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .head{
+       font-size: x-large; 
+    }
+    #job-offer{
+        font-size: xx-large;
+    }
+    .appearance{
+        font-size: xx-large;
+    
+    }
+    #block2 img{
+        width: 60%;
+    }
+    #block2{
+        margin-left: 35px;
+    }
+    #gdp{
+        font-size: x-large;
+    }
+    #results{
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+    #side-2{
+        padding-left: 150px;
+    }
+    #review{
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #recruitment{
+        font-size: xx-large;
+        text-align: center;
+    }
+    #customer{
+        font-size: x-large;
+        margin-bottom: 20px;
+    }
+    #finder h4{
+        font-size: large
+    }
+    #name{
+        font-size: large;
+    }
+    #company{
+        margin-top: 50px;
+    }
+    #footer-title{
+        font-size: larger;
+        text-align: center;
+    }
+    #column{
+        text-align: center;
+    }
+    #address{
+        padding-top: 10px;
+    }
+    #social-media{
+        padding-top: 10px;
+    }
+    #description{
+        text-align: center;
+    }
+    #piece-4{
+        margin-left: 22px;
+        padding-right: 5px;
+    }
+   #piece-5{
+    margin-left: 22px;
+    padding-right: 5px;
+   }
+   #piece-3{
+    margin-left: 22px;
+    padding-right: 5px;
+   }
+   #piece-2{
+    margin-left: 22px;
+    padding-right: 5px;
+   }
+   #piece-1{
+    margin-left: 22px;
+    padding-right: 5px;
+   }
+}

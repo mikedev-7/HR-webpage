@@ -154,3 +154,50 @@
   
   width: 40%;
 }
+
+
+@media (max-width:992px){
+  #user-details{
+    display: flex;
+    flex-direction: column;
+  }
+  #sign-up h2{
+    font-size: x-large;
+    text-align: center;
+  }
+  #sign-up{
+    width: 100%;
+    text-align: center;
+  }
+  #button{
+    margin-left: 30%;
+    margin-bottom: 20px;
+  }
+  #image{
+    margin-bottom: 50px;
+  }
+  #buttons{
+    margin-left: 20%;
+  }
+  
+#forgot {
+  text-align: center;
+}
+input[type=email] {
+  width: 100%;
+}
+input[type=password]{
+  width: 100%;
+}
+#nav-logo a img{
+  width: 75%;
+}
+#logos a img{
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+}
+#image img{
+  width: 50%%;
+}
+}

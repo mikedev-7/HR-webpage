@@ -49,6 +49,9 @@
     color: #071124;
     margin-left: 12%;
   }
+  #forms{
+    width: 100%;
+  }
   form{
     background-color: white;
     width: auto;
@@ -58,18 +61,10 @@
     display: flex;
     align-items: center;
 }
- input[type=email] {
-    border: none;
-    border-bottom: 1px gray;
-    padding: 12px 12px;
-    margin: 10px 0;
-    width: 80%;
-    background-color: white;
-    color: gray;
-
-  }
+ 
   input[type=email] {
     border: 1px solid gray;
+    background-color: #fff;
     border-bottom: 1px solid gray;
     padding: 12px 12px;
     margin: 10px 0;
@@ -191,13 +186,41 @@ input[type=password]{
 }
 #nav-logo a img{
   width: 75%;
+  display:inline;
+    text-align: center;
 }
 #logos a img{
   width: 4rem;
   height: 4rem;
   padding: 1rem;
 }
-#image img{
-  width: 50%%;
+
 }
+@media(max-width: 480px){
+  #nav-logo a img{
+    
+    display:inline;
+    text-align: center;
+
+  }
+  #nav-logo{
+    margin-left:0 ;
+    margin-right: 0;
+    width: 100%;
+  }
+  #forgot{
+  width: 100%;
+  margin-left:0 ;
+  margin-right: 0;
+  }
+  #forgot a{
+    text-align: center;
+  }
+  input[type=email] {
+    width: 100%;
+  }
+  input[type=password]{
+    width: 100%;
+  }
+  
 }

@@ -586,3 +586,32 @@ body{
     padding-right: 5px;
    }
 }
+@media(max-width: 480px){
+  
+    #testimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #body-texts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #column{
+        text-align: center;
+        font-size: larger;
+    }
+    #right{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+    }
+}

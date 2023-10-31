@@ -176,7 +176,7 @@
   }
   
 #forgot {
-  text-align: center;
+  text-align: end;
 }
 input[type=email] {
   width: 70%;

@@ -198,7 +198,7 @@ input[type=password]{
 }
 @media(max-width: 480px) and (max-width: 320px){
   #nav-logo a img{
-    margin-right: 70%;
+    margin-right: 75%;
 
   }
   #nav-logo{
@@ -210,6 +210,7 @@ input[type=password]{
   width: 100%;
   margin-left:0 ;
   margin-right: 0;
+  text-align: center;
   }
   #forgot a{
     text-align: center;
@@ -225,6 +226,9 @@ input[type=password]{
   }
   #form{
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
   }
   
 }

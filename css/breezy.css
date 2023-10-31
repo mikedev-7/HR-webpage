@@ -599,12 +599,6 @@ body{
         justify-content: center;
         align-items: center;
     }
-    #second{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
     #column{
         text-align: center;
         font-size: larger;
@@ -612,6 +606,16 @@ body{
     #right{
         flex-direction: row;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #second{
+        display: none;
+    }
+    #last-block{
+        margin-top: 25px;
+    }
+    #kcis{
+        margin-top: 15px;
     }
 }

@@ -139,11 +139,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 8%;
 }
 #recruiting-3{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 8%;
 }
 
 #gdp{
@@ -586,7 +588,7 @@ body{
     padding-right: 5px;
    }
 }
-@media(max-width: 480px){
+@media(max-width: 480px ) and (max-width: 320px){
   
     #testimonials{
         display: flex;

@@ -198,9 +198,7 @@ input[type=password]{
 }
 @media(max-width: 480px) and (max-width: 320px){
   #nav-logo a img{
-    width: 70%;
-    display:block;
-    margin: auto;
+    margin-right: 70%;
 
   }
   #nav-logo{

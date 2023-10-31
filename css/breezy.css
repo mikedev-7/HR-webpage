@@ -608,8 +608,10 @@ body{
     #right{
         flex-direction: row;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+        width: 80%;
+        text-align: center;
     }
     #second{
         display: none;

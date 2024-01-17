@@ -10,24 +10,28 @@
         <script src="https://kit.fontawesome.com/8fef6830f6.js" crossorigin="anonymous"></script>
         <link rel="icon" href="">
         <link rel="stylesheet" href="css/breezy.css">
-        <link rel = "stylesheet" href="bootstrap/css/bootstrap.min.css">
+       
     </head>
     <body>
-        <div id="nav-bar">
-            <div id="navbar-a">
-                <div id="company-logo">
-                   <a href="index.html"><img src="image/breezy logo.png"></a> 
-                </div>
-                <div id="text"> <a href="#">Product </a> </div>
-                <div id="text"> <a href="#">Hiring Resources</a> </div>
-                <div id="text"> <a href="#"> Pricing </a></div>
-            </div>
-            <div id="navbar-a">
-                <div id="text"> <a href="signin.html">Sign in</a> </div>
-                <div id="text"><a href="">Demo</a> </div>
-                <div id="text"> <a href="">Get Started</a> </div>
-            </div>
-        </div>
+       
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="products.html">Pricing</a></li>
+                <li><a href="portfolio.html">Sign In</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+               
+            </ul>
+            <ul>
+                <li><a href="index.html"><img src="image/breezy logo.png" ></a></li>
+                <li class="hideOnMobile"><a href="products.html">Pricing</a></li>
+                <li class="hideOnMobile"><a href="portfolio.html">Sign In</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+                <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
         <div id="talk">Find & Hire Employees, Sooner.</div>
         <div id="description">From advertising jobs to making offers, Get everything you need  to attract and hire better employees — in less time.</div>
         
@@ -240,19 +244,32 @@
         <div id="footer">
             
             <div id="address">Part of Learning Technologies Group plc</div>
-            <div id="right">
-                <div id="right-link"> <a href="">Security</a> </div>
-                <div id="right-link"> <a href="">Corporate Responsibility</a></div>
-                <div id="right-link"><a href="">Disclosures</a>  </div>
-                <div id="right-link"><a href="">Terms of Service</a> 
+            <div id="rights">
+                <div id="right">
+                    <div id="right-link"> <a href="">Security</a> </div>
+                    <div id="right-link"> <a href="">Corporate Responsibility</a></div>
                 </div>
-                <div id="right-link"> <a href="">Privacy Policy</a> </div>
+                <div id="right" >
+                    <div id="right-link"><a href="">Disclosures</a>  </div>
+                    <div id="right-link"><a href="">Terms of Service</a> </div>
+                    <div id="right-link"> <a href="">Privacy Policy</a> </div>
+                 </div>   
+                </div>
+
             </div>
         </div>
         <div id="launcher-icon">
             <img src="image/user-male-circle-removebg-preview.png">
             </div>
-        <script src ="bootstrap/js/jquery.min.js"></script>
-          <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script>
+                function showSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+                function hideSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                }
+            </script>
     </body>
 </html>
